@@ -1,6 +1,7 @@
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.disabled_samples;
 
 import com.qualcomm.hardware.bosch.BNO055IMU;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.*;
@@ -11,6 +12,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.*;
  *
  */
 @TeleOp(name = "beta bot demo", group = "BetaBot")
+@Disabled
 public class BetaBotDemo extends LinearOpMode {
 
     private DcMotorEx m1, m2, m3, m4;
