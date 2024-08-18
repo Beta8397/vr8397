@@ -2,6 +2,7 @@ package org.firstinspires.ftc.teamcode.mybot;
 
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import org.firstinspires.ftc.teamcode.util.MotionProfile;
 
 @Autonomous
 public class MyAutoTest extends MyAuto {

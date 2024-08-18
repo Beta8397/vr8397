@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.mybot;
+package org.firstinspires.ftc.teamcode.util;
 
 public class MotionProfile {
     public final double vMin;
