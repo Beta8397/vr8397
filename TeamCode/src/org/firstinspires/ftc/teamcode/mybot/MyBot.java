@@ -120,7 +120,6 @@ public class MyBot {
         double px = vx * TICKS_PER_INCH * STRAFE_RATIO / MAX_TICKS_PER_SEC;
         double py = vy * TICKS_PER_INCH / MAX_TICKS_PER_SEC;
         double pa = va * TICKS_PER_RAD / MAX_TICKS_PER_SEC;
-        System.out.println("va = " + va + " pa = " + pa);
         setDrivePower(px, py, pa);
     }
 

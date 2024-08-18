@@ -6,6 +6,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.teamcode.util.MotionProfile;
 import org.firstinspires.ftc.teamcode.util.Pose;
 
+
 public abstract class MyAuto extends LinearOpMode {
 
     protected MyBot bot;
@@ -52,7 +53,7 @@ public abstract class MyAuto extends LinearOpMode {
             bot.setDriveSpeed(vXR, vYR, vA);
         }
 
-        bot.setDriveSpeed(0, 0, 0);
+        bot.setDrivePower(0, 0, 0);
     }
 
     public void turnTo(double targetHeadingDegrees, double vaMaxDegrees, double coeff, double toleranceDegrees){
